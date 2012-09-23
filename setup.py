@@ -13,9 +13,9 @@ requires = [
     'PIL',
     ]
 
-setup(name='costumer',
+setup(name='pyramid_bootstrap',
       version='0.0',
-      description='costumer',
+      description='pyramid_bootstrap',
       long_description=README + '\n\n' +  CHANGES,
       classifiers=[
         "Programming Language :: Python",
@@ -35,7 +35,7 @@ setup(name='costumer',
       test_suite="costumer",
       entry_points = """\
       [paste.app_factory]
-      main = costumer:main
+      main = pyramid_bootstrap:main
       """,
       )
 
